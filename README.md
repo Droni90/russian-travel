@@ -5,5 +5,5 @@
 2. Позиционирование элементов.
 3. Grid layout.
 4. Адаптивная верстка.
-5. Организация файлов по БЭМ.
-https://droni90.github.io/russian-travel/index.html
+5. Организация файлов по БЭМ.<br>
+Ссылка на сайт : https://droni90.github.io/russian-travel/index.html
