@@ -1,0 +1,17 @@
+.place{
+  display: grid;
+}
+
+@media (max-width: 768px){
+  .place{
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 425px){
+  .place{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+}
