@@ -9,3 +9,10 @@
 .header__lang:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 425px){
+  .header__lang{
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

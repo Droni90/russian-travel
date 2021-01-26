@@ -7,10 +7,25 @@
   margin: 56px 0 0 0;
   }
 
+@media (max-width: 768px){
+  .lead__title{
+  max-width: 720px;
+  font-size: 72px;
+  padding: 0 24px;
+  }
+}
+@media (max-width: 620px){
+  .lead__title{
+    max-width: 288px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}
 @media (max-width: 425px){
   .lead__title{
     max-width: 288px;
     font-size: 40px;
     line-height: 44px;
+    padding: 0 16px;
   }
 }

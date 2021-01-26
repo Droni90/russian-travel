@@ -7,9 +7,21 @@
   margin: 32px 0 64px 0;
   }
 
+  @media (max-width: 768px){
+    .lead__subtitle{
+      padding: 0 24px;
+    }
+  }
+  @media (max-width: 620px){
+    .lead__subtitle{
+      font-size: 20px;
+      padding: 0 24px;
+    }
+  }
 @media (max-width: 425px){
   .lead__subtitle{
     font-size: 16px;
     line-height: 20px;
+    padding: 0 16px;
   }
 }

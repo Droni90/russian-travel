@@ -3,6 +3,12 @@
   margin: 114px auto 82px auto;
 }
 
+@media (max-width: 768px){
+  .intro{
+    padding: 0 24px;
+  }
+}
+
 @media (max-width: 425px){
   .intro{
     padding: 0 16px;

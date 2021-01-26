@@ -1,5 +1,5 @@
-@import url(../vendor/fonts/fonts.css);      /* Я правильно понял? */
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/roof/roof.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/link/link.css);
@@ -9,7 +9,8 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__langs/header__langs.css);
 @import url(../blocks/header/__lang/header__lang.css);
-@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__langs/_language/header__langs_language_ru.css);
+@import url(../blocks/header/__langs/_language/header__langs_language_en.css);
 
 
 /* lead */
@@ -18,7 +19,6 @@
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__title/lead__title.css);
-@import url(../blocks/lead/__vector/lead__vector.css);
 
 
 /* intro */

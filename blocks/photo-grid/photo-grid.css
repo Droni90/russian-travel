@@ -4,3 +4,8 @@
   grid-gap: 16px;
   max-width: 100%;
 }
+@media (max-width: 290px){
+  .photo-grid{
+  grid-template-columns: repeat(auto-fit, 1fr);
+  }
+}

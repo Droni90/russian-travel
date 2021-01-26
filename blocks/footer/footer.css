@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-@media (max-width: 425px){
+@media (max-width: 760px){
   .footer{
     align-items:flex-start;
     flex-direction: column;
