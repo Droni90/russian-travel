@@ -3,14 +3,14 @@
 @import url(../blocks/roof/roof.css);
 @import url(../blocks/page/page.css);
 @import url(../blocks/link/link.css);
+@import url(../blocks/link/_status/link_status_active.css);
 @import url(../blocks/container/container.css);
 @import url(../blocks/logo/logo.css);
 /* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__langs/header__langs.css);
 @import url(../blocks/header/__lang/header__lang.css);
-@import url(../blocks/header/__langs/_language/header__langs_language_ru.css);
-@import url(../blocks/header/__langs/_language/header__langs_language_en.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
 
 
 /* lead */
