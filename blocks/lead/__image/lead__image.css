@@ -1,5 +1,13 @@
 .lead__image{
-  width: 100%;
   max-height: 615px;
-  object-fit: contain;
+  max-width: 100%;
+  object-fit: fill;
 }
+/* не заметил разницы между разными значениями object-fill */
+
+@media (max-width: 1024px){
+  .lead__image{
+    max-height: 580px;
+  }
+}
+
